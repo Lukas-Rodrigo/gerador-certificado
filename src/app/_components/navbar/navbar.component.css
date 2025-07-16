@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #ffff;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  color: #3b5ac2;
+}
+
+.nav-item {
+  cursor: pointer !important;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link.active{
+  color: #3b5ac2;
+}
+
+.test {
+  display: flex;
+}
